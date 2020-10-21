@@ -221,8 +221,7 @@ form {
 
 /* ####################  Single Article #################### */
 .single-news-picture {
-  max-height: 30vh;
-  overflow: hidden;
+  width: 100%;
 }
 .article {
   padding-top: 3em;
