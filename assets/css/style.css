@@ -1,0 +1,268 @@
+/* Fonts */
+body {
+  font-family: "Lato", sans-serif !important;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Prata", serif;
+}
+
+h1 {
+  color: #061211;
+}
+h2 {
+  color: #1d9086;
+}
+h3 {
+  margin-bottom: 1em !important;
+}
+a {
+  color: #177961 !important;
+}
+a:hover {
+  color: #25a79c !important;
+}
+p {
+  font-weight: 300;
+}
+
+form {
+  padding: 5em;
+}
+.active {
+  color: #0e4638 !important;
+  text-decoration: underline;
+  font-weight: 600;
+}
+/* Top Navbar */
+.container .navbar {
+  padding: 0 16px;
+}
+
+/* Cards */
+.card {
+  border: none !important;
+}
+.card-img-top {
+  border-bottom-left-radius: calc(0.25rem - 1px);
+  border-bottom-right-radius: calc(0.25rem - 1px);
+}
+
+.card-body {
+  padding-left: 0 !important;
+}
+
+/* Footer */
+.footer {
+  padding: 1.5em;
+  text-align: center;
+  background-color: #1d90869a;
+  margin-top: 1em;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+.footer a {
+  color: white !important;
+}
+
+.footer a:hover {
+  color: #25a79c !important;
+}
+
+/* #################### Home page #################### */
+/* Main picture */
+.main-picture {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  max-width: 1000%;
+  width: auto;
+}
+
+/* Main content */
+.home-main-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em 0;
+}
+
+.home-main-content-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.home-main-content-text {
+  padding-left: 4em;
+}
+.home-main-content-text > h2 {
+  text-align: center;
+}
+
+/* Next screenings */
+.home-next-screening {
+  padding-bottom: 50px;
+}
+
+/* #################### All movies #################### */
+.movies-main-content {
+  justify-content: center;
+  padding: 5em;
+}
+.home-next-screening > .row:nth-child(1) {
+  margin-bottom: 2em;
+}
+
+/* #################### Film page #################### */
+.film-main-picture-container {
+  padding: 4em;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  text-align: center;
+}
+.film-main-picture {
+  height: 35vw !important;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.film-details {
+  padding: 2em 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.film-details h1 {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.film-details-hour {
+  font-size: 20px;
+  margin-block-end: 0 !important;
+}
+
+.film-button {
+  border-color: #177961 !important;
+  background-color: #177961 !important;
+  transition: 0.5s !important;
+}
+.film-button:hover {
+  background-color: #177961 !important;
+}
+
+.film-button a {
+  padding: 0.3em;
+  transition: 0.5s;
+  color: white !important;
+}
+
+.film-button:hover a {
+  color: white !important;
+}
+
+.film-button a:hover {
+  background-color: #177961 !important;
+}
+
+.film-people {
+  padding-top: 3em;
+  width: 50%;
+}
+
+.films-details-synopsis {
+  padding: 3em;
+}
+
+/* Background color film's main picture */
+.picture-siffleurs {
+  background-color: #c52118;
+}
+
+.picture-abou {
+  background: linear-gradient(#3e6a90 60%, #b0854f);
+}
+
+.picture-tommaso {
+  background-color: #922c15;
+}
+
+.picture-mommy {
+  background-color: #8b6a2b;
+}
+
+.picture-shutter {
+  background-color: #030303;
+}
+
+.picture-parrain {
+  background-color: #030303;
+}
+.picture-contact {
+  background-color: #151c14;
+}
+/* ####################  News #################### */
+.picture-news {
+  background-color: #000;
+}
+.news-card-container .card-columns :nth-child(3) {
+  margin-top: 2em;
+}
+.citation-card {
+  background-color: #77bcb6 !important;
+  margin-top: 4em;
+}
+
+/* ####################  Single Article #################### */
+.single-news-picture {
+  max-height: 30vh;
+  overflow: hidden;
+}
+.article {
+  padding-top: 3em;
+  min-height: calc(100vh - 250px - 88px);
+}
+.article h1{
+  text-align: center;
+}
+.article p {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.small-text {
+  padding-top: 1em;
+  font-size: 12px;
+  color: grey
+}
+/* Media */
+@media (min-width: 768px) {
+  .card-img-top {
+    height: 25vw;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .film-people {
+    width: 100%;
+  }
+  .film-details {
+    display: flex;
+    flex-direction: column;
+  }
+  .film-details > * {
+    padding-bottom: 1em;
+  }
+  .film-main-picture {
+    height: 80vw !important;
+    object-fit: cover;
+    overflow: hidden;
+  }
+}
