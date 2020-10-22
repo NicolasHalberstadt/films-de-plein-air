@@ -253,7 +253,12 @@ form {
     object-fit: cover;
   }
 }
-
+@media (max-width: 992px ) {
+  .article p {
+    width: 100%;
+    text-align: justify;
+  }
+}
 @media (max-width: 768px) {
   .film-people {
     width: 100%;
@@ -270,6 +275,10 @@ form {
     object-fit: cover;
     overflow: hidden;
   }
+  form {
+    padding: 0;
+  }
+  
 }
 
 @media (max-width: 576px)
@@ -277,4 +286,5 @@ form {
   .container .navbar {
     padding: 0;
   }
+  
 }
