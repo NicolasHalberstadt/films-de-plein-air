@@ -40,6 +40,12 @@ form {
 .container .navbar {
   padding: 0 16px;
 }
+.navbar-brand {
+  margin-right: 0!important;
+}
+.navbar-brand img {
+  width: 70%;
+}
 
 /* Cards */
 .card {
@@ -263,5 +269,12 @@ form {
     height: 80vw !important;
     object-fit: cover;
     overflow: hidden;
+  }
+}
+
+@media (max-width: 576px)
+{
+  .container .navbar {
+    padding: 0;
   }
 }
